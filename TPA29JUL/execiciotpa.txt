@@ -1,0 +1,5 @@
+Exercício
+
+1 - Criar um projeto que leia um número e mostre sua tabuada; 
+2 - Criar um projeto que leia um número inicial e outro final e imprima o intervalo entre eles.
+3 - Criar um projeto que leia um número e mostre seu fatorial ex: 5! 5x4x3x2x1=120
