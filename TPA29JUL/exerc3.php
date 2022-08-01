@@ -1,20 +1,41 @@
 <?php
 /*
-$const = 5;
+$numero = 5;
 $multi = 5;
 
-while($const ){
-    $final = $const * $multi;
+while($numero ){
+    $final = $numero * $multi;
     echo $final;
     $multi--;
 }
 */
 
-$const = 5;
+/*
+$numero = 5;
 
-while($const >= 1){
-    echo $const * $const-- . "<br>";
-    $const--;
+while($numero >= 1){
+    echo $numero * $numero-- . " ";
+    $numero--;
+}
+*/
+
+/*
+$numero = 5;
+
+while($numero >= 1){
+    echo $numero *= $numero;
+    $numero--;
+}
+*/
+
+$numero = 6;
+$total= 1;
+$contar= 1;
+
+while ($contar <= $numero){
+    $total *= $contar;
+    $contar++;
 }
 
+echo $total;
 ?>
