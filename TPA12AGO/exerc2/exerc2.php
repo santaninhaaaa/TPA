@@ -1,19 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<?php
 
-<form action="resultado.php" method="post">
-    <h1> Digite sua idade </h1>
-    <input type="number" name="age">
-    <br><br>
-    <input type="submit" value="Resultado">
-</form>
-    
-</body>
-</html>
+$idade = $_POST['age'];
+
+if ($idade == null) {
+    echo "Coloque uma idade";
+}
+else if ($idade < 0 || $idade > 120) {
+    echo "Coloque uma idade válida";
+}
+else if ($idade < 18 && $idade > 0) {
+    echo "Você é de menor";
+}
+else if ($idade >= 18) {
+    echo "Você é de maior";
+}
+
+
+?>
