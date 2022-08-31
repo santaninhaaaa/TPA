@@ -13,33 +13,44 @@ case 2:
     echo "O mês atual é Fevereiro";
 break;
 
-case: 3 {
+case 3: 
     echo "O mês atual é Março";
-}
-case: 4 {
+break;
+
+case 4:
     echo "O mês atual é Abril";
-}
-case: 5 {
+break;
+
+case 5:
     echo "O mês atual é Maio";
-}
-case: 6 {
+break;
+
+case 6: 
     echo "O mês atual é Junho";
-}
-case: 7 {
+break;  
+        
+case 7:
     echo "O mês atual é Julho";
-}
-case: 8) {
+break;
+
+case 8:
     echo "O mês atual é Agosto";
-}
-case: 9) {
+break;
+
+case 9: 
     echo "O mês atual é Setembro";
-}
-case: 10) {
+break;
+
+case 10:
     echo "O mês atual é Outubro";
-}
-case: 11) {
+break;
+
+case 11:
     echo "O mês atual é Novembro";
-}
-case: 1case: 2) {
+break;
+
+case 12: 
     echo "O mês atual é Dezembro";
-}
+break;  
+        
+?>
