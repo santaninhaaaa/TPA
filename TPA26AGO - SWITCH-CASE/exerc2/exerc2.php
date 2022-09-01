@@ -50,16 +50,13 @@ switch ($n) {
 
     case 12: 
         echo "<h2> Férias </h2>";
-    break;  
+    break;
 
-}
-
-switch ($n == null || $n == " " || $n < 1 || $n > 12) {
-
-    case 13:
+    default:
         echo "<h2> Coloque um valor de 1 à 12 <h2>";
-    default;
+    break;
     
+
 }
 
         
