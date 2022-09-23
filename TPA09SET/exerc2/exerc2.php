@@ -6,7 +6,7 @@ if ($n % 2 == 0 && $n % 5 == 0 && $n % 10 == 0) {
     echo $n . " é divisível por 2, 5 e 10";
 }
 else if ($n % 2 == 0 && $n % 5 == 0) {
-    echo $n . " é divisível por 2 e por 10";
+    echo $n . " é divisível por 2 e por 5";
 }
 else if ($n % 2 == 0 && $n % 10 == 0) {
     echo $n . " é divisível por 2 e por 10";
