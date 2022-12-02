@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #313131;
+    text-align: center;
+    margin-top: 350px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 90px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+    
+}
+
+.func a{
+    padding-bottom: 90px;
+    margin-right: 90rem;
+
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.func a:hover {
+    color: black;
+    margin-right: 88rem;
+}
+
+.forn a{
+    margin-left: 90rem;
+
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.forn a:hover {
+    color: black;
+    margin-left: 88rem;
+}
+
+hr {
+    rotate: -45deg;
+}
